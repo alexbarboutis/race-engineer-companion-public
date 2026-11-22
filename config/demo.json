@@ -1,0 +1,14 @@
+{
+  "name": "Synthetic multiclass demonstration",
+  "pit_scenarios_file": "pit_scenarios.json",
+  "expected_car_numbers": ["101", "202", "303", "404", "505", "606"],
+  "timing_line_lap_fractions": [0.32, 0.65, 1.0],
+  "minimum_clean_laps": 2,
+  "maximum_source_age_s": 150,
+  "maximum_clock_silence_s": 60,
+  "unreported_car_grace_s": 150,
+  "maximum_forecast_lag_s": 10,
+  "stale_rival_hold_s": 0,
+  "baseline": {"close_gap_s": 3},
+  "calibration_note": "Public baseline: constant pace with no traffic interactions. All bundled cars, lap times and pit durations are fictional demonstration inputs."
+}

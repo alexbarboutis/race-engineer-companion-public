@@ -1,0 +1,11 @@
+{
+  "note": "Fictional examples only; these are not measured WEC pit times or regulations. Stages are sequential; services within a stage overlap.",
+  "scenarios": [
+    {"id": "stay_out", "label": "Stay out", "stay_out": true},
+    {"id": "tyres", "label": "Tyres", "pit_lane_delta_s": 25, "service_stages": [[{"name": "tyres", "duration_s": 18}]]},
+    {"id": "fuel", "label": "Refuel", "pit_lane_delta_s": 25, "service_stages": [[{"name": "fuel", "duration_s": 32}]]},
+    {"id": "full_service", "label": "Fuel + tyres", "pit_lane_delta_s": 25, "service_stages": [[{"name": "fuel", "duration_s": 32}], [{"name": "tyres", "duration_s": 18}]]},
+    {"id": "drive_through", "label": "Drive-through", "pit_lane_delta_s": 25, "service_stages": []},
+    {"id": "custom", "label": "Custom service", "pit_lane_delta_s": 25, "service_stages": [[{"name": "custom", "duration_s": null}]]}
+  ]
+}
